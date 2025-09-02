@@ -21,3 +21,21 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+barra = f"| {30 * '_'}"
+print (barra)
+print ("|   SISTEMAS DE PROVAS     ")
+print (barra)
+nome = input ("nome do aluno: ")
+nota1 = float(input ("nota da primeira prova: "))
+nota2 = float(input ("nota da segunda prova: "))
+nota3 = float(input ("nota da terceira prova: "))
+
+media =  (nota1+nota2+nota3)/3
+
+print (barra)
+print (f"nome: {nome}")
+print (f"média: {media:.2f}")
+if media >= 5:
+    print("| Aluno Aprovado ")
+else:
+    print("| Aluno Reprovado ")

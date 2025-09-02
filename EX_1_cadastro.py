@@ -17,4 +17,21 @@
 # | ------------------------------ |
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+ 
 
+barra = f"| {30 * "_"} | "
+print(barra)
+print("|_____________CADASTRO___________|")
+print(barra)
+nome = input("| digite seu nome: ")
+idade = input("| digite sua idade: ")
+email = input("| digite seu email: ")
+senha = input("| digite sua senha: ")
+
+
+print(barra)
+print("|_______USUÁRIO CADASTRADO________|")
+print(barra)
+print(f"| seja bem vindo(a) {nome}")
+print(F"| seu email: {email}")
+print(barra)

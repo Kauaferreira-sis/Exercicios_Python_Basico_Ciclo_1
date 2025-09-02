@@ -4,10 +4,12 @@
 # OUTPUT ESPERADO:
 
 # Digite a cotação do dollar: 5.60
-# Digite o valor em dollar a ser convetido para real: 100
+#  100
 # O valor em reais é:  560.0
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
-
+cotacao = float(input("Digite a cotação do dollar:"))
+qt_dolares = float(input("digite o valor em dollar a ser convertido: "))
+print(f"o valor em reais é: {qt_dolares * cotacao}")
 
