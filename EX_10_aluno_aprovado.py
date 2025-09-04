@@ -17,3 +17,7 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+n1 = float (input("digite a nota da primeira nota: "))
+n2 = float(input("digite a nota da segunda nota: "))
+media = (n1 + n2) /2
+print (f"aluno aprovado? {(media>= 5) and (n1!=0) and (n2!=0)}")

@@ -14,7 +14,6 @@ dias = int(input("por quantos dias o carro foi alugado: "))
 km = float(input("quantos km o carro rodou: "))
 
 valor_dias = dias * 60
-valor_km =  km * 0,15
+valor_km =  km * 0.15
 valor_total = valor_dias + valor_km
- 
-print(f"voce andou")
+print(f"voce andou {km}km por dias, então o preço a pagar é R$: {valor_total}")

@@ -16,4 +16,8 @@
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
 senha = input ("digite a senha: ")
-senha = 1234 
+senha_correta = "2008aaa"
+if senha == senha_correta: 
+    print("senha correta")
+else: 
+    print("senha incorreta")
