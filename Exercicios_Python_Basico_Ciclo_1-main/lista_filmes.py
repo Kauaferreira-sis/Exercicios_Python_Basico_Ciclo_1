@@ -1,7 +1,10 @@
-filmes =  print ("Digite 3 filmes para adicionar a lista  ")
+print ("Digite 3 filmes para adicionar a lista  ")
 
 cont = 1
-
-while cont != filmes  : 
-    filmes = (input(f"digite o {cont} filme: "))
+filmes = []
+while cont <= 3  : 
+    nome = (input(f"digite o {cont} filme: "))
+    filmes.append(nome)
     cont += 1
+
+print(filmes)
